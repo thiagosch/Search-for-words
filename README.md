@@ -5,9 +5,9 @@
 
 
 ### Usage:
-put your .txt files into the folder "txtToRead" and execute "phyton.py", the list of words and the number of aparitions are saved in "list.csv".
+Put your .txt files into the folder "txtToRead" and execute "phyton.py", the list of words and the number of aparitions are saved in "list.csv".
 
-example of list.csv
+Example of list.csv
 ```sh
 john,54
 maxwell,12
@@ -18,7 +18,7 @@ del,1514
 trabajo,300
 ```
 ### tqdm is needed to run this app.
-Put this on the console after you run te program:
+Type this on the console after you run te program:
 ```sh
 pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm
 ```
