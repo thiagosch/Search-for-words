@@ -1,9 +1,11 @@
 # Search-for-words
-Search for words in .txt files and then stores them in a file with the number of occurences.
 
 
-Usage
-put your .txt files into the folder "txtToRead" and execute "phyton.py", the list of words and the number of aparitions are saved in "list.csv"
+## Search for words in .txt files and then stores them in a file with the number of occurences.
+
+
+### Usage:
+put your .txt files into the folder "txtToRead" and execute "phyton.py", the list of words and the number of aparitions are saved in "list.csv".
 
 example of list.csv
 ```sh
@@ -14,4 +16,9 @@ leyes,50
 incuestionables,8
 del,1514
 trabajo,300
+```
+### tqdm is needed to run this app.
+Put this on the console after you run te program:
+```sh
+pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm
 ```
