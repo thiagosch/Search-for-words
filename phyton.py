@@ -69,7 +69,7 @@ for filename in os.listdir(directory):
                 newList[word] = 1
 
         # print(newList)
-
+        os.remove("dataNoLineBreak.txt")
     else:
         continue
 
