@@ -41,7 +41,7 @@ for filename in os.listdir(directory):
                                   ).replace(' '*4, ' ').replace(' '*3, ' ').replace(' '*2, ' ').strip()
             data.translate(str.maketrans('', '', "!?.,'123456789"))
             wordList = re.sub(r"[^\w]", " ",  data).split()
-
+        os.remove("dataNoLineBreak.txt")
         with open("list.csv", mode="r", encoding="utf8") as infile:
             reader = csv.reader(infile)
 
@@ -69,7 +69,6 @@ for filename in os.listdir(directory):
                 newList[word] = 1
 
         # print(newList)
-        os.remove("dataNoLineBreak.txt")
+
     else:
         continue
-
