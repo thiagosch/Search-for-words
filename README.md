@@ -3,7 +3,7 @@
 
  <h2 align="center">Search for words in .txt files and then stores them in a file with the number of occurences.</h2>
 
-### tqdm is needed to run this app. [![tqdm](https://img.shields.io/badge/GitHub%20tqdm-gray.svg)](https://tqdm.github.io/) 
+### tqdm is needed to run this app. [![tqdm](https://img.shields.io/badge/GitHub%20tqdm-gray.svg)](https://github.com/tqdm/tqdm.github.io/blob/src/sources/index.md) 
 
  <p>To install tqdm type this on the console:</p>
  
