@@ -12,7 +12,7 @@
 
 <h3 align="center"> Usage</h3>
 
- Put your .txt files into the folder "txtToRead" and execute "phyton.py", the list of words and the number of aparitions are saved in "list.csv".
+ Put your .txt files into the folder "txtToRead" and execute "searchForWords.py", the list of words and the number of aparitions are saved in "list.csv".
 
 
 
