@@ -5,16 +5,14 @@
 
 ### tqdm is needed to run this app. [![tqdm](https://img.shields.io/badge/GitHub%20tqdm-gray.svg)](https://github.com/tqdm/tqdm.github.io/blob/src/sources/index.md) 
 
- <p>To install tqdm type this on the console:</p>
- 
- `pip install -e git+https://github.com/tqdm/tqdm.git@master#egg=tqdm`
+ tqdm is auto-installed when you run for the first time the program
 
  
 <hr>
 
 <h3 align="center"> Usage</h3>
 
- Put your .txt files into the folder "txtToRead" and execute "phyton.py", the list of words and the number of aparitions are saved in "list.csv".
+ Put your .txt files into the folder "txtToRead" and execute "searchForWords.py", the list of words and the number of aparitions are saved in "list.csv".
 
 
 
